@@ -37,7 +37,7 @@ const PowerSection = () => {
     {!fullScreen ? (
     <div className='relative ' onClick={openFullScreen} id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='w-[100%] h-[45vh] sm:h-[70vh] xl:h-[95vh] object-cover '>
-    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--connected-ride.webm?v=49437331940536224001692383913' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--connected-ride.webm?v=49437331940536224001692383913' type='video/webm'/>    
     </video>    
     <article className='web-bike absolute bottom-12 l left-12 flex flex-col gap-1 w-3/12 '>
     <h2 className='text-[22px] font-sand font-[500] text-[#1d1d1d]'>Connected Ride</h2>
@@ -50,7 +50,7 @@ const PowerSection = () => {
     ) : (
     <div id='item-classic'>
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='w-[100%] h-[100vh] object-cover '>
-    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--connected-ride.webm?v=49437331940536224001692383913' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--connected-ride.webm?v=49437331940536224001692383913' type='video/webm'/>    
     </video>   
     <div className='w-12 h-12 bg-white absolute top-6 right-6 rounded-full flex items-center justify-center'>
     <XMarkIcon  className='c-btn  w-8 h-8 text-black ' onClick={closeFullScreen}>Close Fullscreen</XMarkIcon>
@@ -72,7 +72,7 @@ const PowerSection = () => {
     <li className='w-6/12 '>
     <div id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='object-cover h-[45vh] xl:h-auto'>
-    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--assistance.webm?v=120452490851749075231693989931' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--assistance.webm?v=120452490851749075231693989931' type='video/webm'/>    
     </video>    
     </div>
     <h2 className='web-bike font-rale text-[24px] font-[500] pt-4 text-left pl-6'>Cowboy AdaptivePower™</h2>
@@ -82,7 +82,7 @@ const PowerSection = () => {
      <li className='w-6/12 '>
     <div id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='object-cover h-[45vh] xl:h-auto'>
-    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--battery.webm?v=175171553245501265131693989952' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/27/assets/cruiser-st--battery.webm?v=175171553245501265131693989952' type='video/webm'/>    
     </video>    
     </div>    
     <h2 className='font-rale text-[16px] sm:text-[24px] font-[500] pt-4 t text-right pr-6'>Removable Battery</h2>

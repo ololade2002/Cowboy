@@ -33,7 +33,7 @@ const closeFullScreen = () => {
     {!fullScreen ? (
     <div className='relative' onClick={openFullScreen} id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='w-[100%] h-[45vh] sm:h-[70vh] xl:h-[95vh] object-cover '>
-    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--connected-ride.webm?v=8147240818941453072169234818' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--connected-ride.webm?v=8147240818941453072169234818' type='video/webm'/>    
     </video>    
     <article className='absolute bottom-12 l left-12 flex web-bike flex-col gap-1 w-3/12 '>
     <h2 className='text-[22px] font-sand font-[500] text-[#1d1d1d]'>Connected Ride</h2>
@@ -46,7 +46,7 @@ const closeFullScreen = () => {
     ) : (
     <div id='item-classic'>
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='w-[100%] h-[100vh] object-cover '>
-    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--connected-ride.webm?v=8147240818941453072169234818' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--connected-ride.webm?v=8147240818941453072169234818' type='video/webm'/>    
     </video>   
     <div className='w-12 h-12 bg-white absolute top-6 right-6 rounded-full flex items-center justify-center'>
     <XMarkIcon  className='c-btn  w-8 h-8 text-black ' onClick={closeFullScreen}>Close Fullscreen</XMarkIcon>
@@ -69,7 +69,7 @@ const closeFullScreen = () => {
     <li className='w-6/12 '>
     <div id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='object-cover h-[45vh] xl:h-auto'>
-    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--assistance.webm?v=67356282726875004841689508614' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--assistance.webm?v=67356282726875004841689508614' type='video/webm'/>    
     </video>    
     </div>
     <h2 className='font-rale text-[24px] font-[500] pt-4 text-left pl-6 web-bike'>Cowboy AdaptivePower™</h2>
@@ -79,7 +79,7 @@ const closeFullScreen = () => {
      <li className='w-6/12 '>
     <div id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='object-cover h-[45vh] xl:h-auto'>
-    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--battery.webm?v=25407123785043179731689508622' type='video/mp4'/>    
+    <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--battery.webm?v=25407123785043179731689508622' type='video/webm'/>    
     </video>    
     </div>    
     <h2 className='font-rale text-[16px] sm:text-[24px] font-[500] pt-4  text-right xl:pr-6'>Removable Battery</h2>

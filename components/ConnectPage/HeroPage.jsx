@@ -8,7 +8,7 @@ const HeroPage = () => {
     <aside className='media '>
      <div className="render ">
      <video autoPlay muted loop playsInline  disablePictureInPicture  controls={false}  className='object-cover absolute top-0 z-0 h-[100vh] w-[100%] sm:w-[80%]'>
-    <source className='' src="https://cowboy.com/cdn/shop/t/27/assets/connect--hero.webm?v=135320951610200723611689697287" type="video/mp4"/>    
+    <source className='' src="https://cowboy.com/cdn/shop/t/27/assets/connect--hero.webm?v=135320951610200723611689697287" type="video/webm"/>    
     </video>
      </div>
     </aside>
