@@ -3,7 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 import lock from '@/public/accessories/kryptonite-u-lock.webp'
 import helmet1 from '@/public/accessories/Helmet.webp'
-import helmet2 from '../../public/accessories/helmet2.webp'
+import helmet2 from  '@/public/accessories/helmet2.webp'
 import Image from 'next/image'
 
 const SafetySection = () => {
