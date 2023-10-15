@@ -19,9 +19,9 @@ const ShareRide = () => {
     <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" className='w-full xl:w-6/12 flex flex-col gap-4 pb-12 xl:pb-20 pt-8 xl:pt-16 '>
     <h1  className='connectMainText'>Stay on course</h1>
     <h3 className='connectSubText'>Enjoy turn-by-turn 
-    navigation and stay connected on every ride with Cowboy's predictive technology. 
+    navigation and stay connected on every ride with Cowboy&apos;s predictive technology. 
     Activate Share My Ride to let friends and loved ones follow your journey in realtime
-     and you'll see their reactions along the way.</h3>
+     and you&apos;ll see their reactions along the way.</h3>
     </div>
 
    <div className='relative'>

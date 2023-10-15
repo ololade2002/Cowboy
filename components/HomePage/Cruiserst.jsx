@@ -24,7 +24,7 @@ const Cruiserst = () => {
       <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" className='homeMainText'>Step through to a new colorway</h1>
     
       <div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="100" className='mobile-bike scale-125'>
-      <Image className='' src={cruiserstfull}/>
+      <Image className='' src={cruiserstfull} alt='Cruiser-st'/>
       </div> 
     
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="120" className='homeButton'>

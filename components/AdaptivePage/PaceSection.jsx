@@ -101,7 +101,7 @@ const closeFullScreen = () => {
     <div>
     <div className='w-full xl:w-6/12 py-12 xl:py-24'>
     <h3 className='circularSubText'>Even the steepest hill before you feels like the flat
-    with AdaptivePower. Pull up the app, and we'll see you at the top.
+    with AdaptivePower. Pull up the app, and we&apos;ll see you at the top.
     </h3> 
     </div>
 

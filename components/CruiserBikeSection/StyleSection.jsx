@@ -18,7 +18,7 @@ const StyleSection = () => {
     <h1 className='connectSubText pb-16 xl:pb-20'>
     With a raised cockpit and curved handlebars, the Cruiser gives you a 
     comfortable riding position on a sleek step-over frame. Settle into 
-    the wider saddle and you'll ride on and on.
+    the wider saddle and you&apos;ll ride on and on.
     </h1>   
     </div>
 

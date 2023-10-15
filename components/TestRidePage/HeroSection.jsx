@@ -15,7 +15,7 @@ const HeroSection = () => {
     <div className="leaseText z-20">
     <div className='flex flex-col '>
     <p data-aos="fade-up" data-aos-duration="600" data-aos-offset="120" className='text-white font-sand font-[500] text-[20px] sm:text-[22px] pb-4'>Cowboy test rides</p>  
-    <h1 data-aos="fade-up" data-aos-duration="600" data-aos-offset="200" className=' tracking-tight font-rale main-text text-[40px] sm:text-[55px] font-[500] lg:text-[100px] text-white '>We'll come to you</h1>  
+    <h1 data-aos="fade-up" data-aos-duration="600" data-aos-offset="200" className=' tracking-tight font-rale main-text text-[40px] sm:text-[55px] font-[500] lg:text-[100px] text-white '>We&apos;ll come to you</h1>  
     <div className='' >
     <Link href='#preview' className='bg-[#fff] hover:bg-[#000]  h-12 w-12 mt-40 sm:mt-24  flex items-center justify-center text-center rounded-full mx-auto'>
     <ArrowDownIcon className='animate-customAnimation mx-auto w-5 h-12 hover:text-[#fff] text-[#1d1d1d]'/>

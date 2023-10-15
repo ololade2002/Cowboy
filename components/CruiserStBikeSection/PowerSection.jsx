@@ -25,7 +25,7 @@ const PowerSection = () => {
     <div className='w-full px-4 xl:px-0 xl:w-[75%] text-left xl:text-center mx-auto '>
     <h1 className='connectSubText pb-12 xl:pb-16'>
     Feel the power. The connected electric bike fits into
-    how you live and adapts to how you ride. It's a new form
+    how you live and adapts to how you ride. It&apos;s a new form
     of performance on the street.
     </h1>   
     </div>
@@ -88,8 +88,6 @@ const PowerSection = () => {
     <h2 className='font-rale text-[16px] sm:text-[24px] font-[500] pt-4 t text-right pr-6'>Removable Battery</h2>
     </li>   
     </ul>
-
-
     </section>
 
     <section>
@@ -97,8 +95,8 @@ const PowerSection = () => {
     <div className="body pt-12 xl:pt-24">
     <div className='w-full xl:w-[80%] text-left xl:text-center mx-auto '>
     <h1 className='connectSubText'>
-    With looks this sleek, you'll want to keep an eye on your
-    Cowboy to check it's safe. Insure it, track it and ride with your mind at ease.
+    With looks this sleek, you&apos;ll want to keep an eye on your
+    Cowboy to check it&apos;s safe. Insure it, track it and ride with your mind at ease.
     </h1>   
     <hr className='my-6 xl:my-8 w-full xl:w-3/12 mx-auto ' />
    

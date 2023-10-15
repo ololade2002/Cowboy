@@ -11,7 +11,7 @@ const BikeSection = () => {
      <h1 className='pb-8 connectSubText'>
      Meet the Cruiser ST for a modern spin on the step-through
       frame. A versatile ride gives you a smooth stride on an
-       electric bike that's built around you.  
+       electric bike that&apos;s built around you.  
     </h1>   
     <Link href='/test-ride' className='web-bike bg-[#1d1d1d] font-sand text-[18px] hover:opacity-90 font-[500] px-8 py-3 text-white rounded-full'>Book a free ride</Link>
    

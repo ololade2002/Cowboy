@@ -45,8 +45,8 @@ const ShowSection = () => {
    <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-4 pb-16 xl:pb-0 w-full xl:w-1/12 flex  justify-center xl:justify-start">
    <div className='flex flex-row xl:flex-col  f-btn px-3 py-3 rounded-full bg-white gap-3'>
     {classicSection.map((image) => (
-    <div className="color-preview ">
-    <RadioGroup.Option  onClick={() => handleButtonClick(image)} key={image.id} value={image}  className={({ active, checked }) =>
+    <div className="color-preview " key={image.id}>
+    <RadioGroup.Option  onClick={() => handleButtonClick(image)}  value={image}  className={({ active, checked }) =>
     classNames(
     image.selectedClass,
     active && checked ? 'ring ring-offset-1' : '',

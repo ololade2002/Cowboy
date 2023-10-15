@@ -38,7 +38,7 @@ const HeadwindSection = () => {
     <section className='max-w-7xl px-3 sm:px-4 mx-auto'>
     <div className='w-full xl:w-6/12 py-12 xl:py-24'>
     <h3 className='font-sand text-[#fff] font-[500] text-[25px] sm:text-[30px]'>When you catch a headwind,
-     the bike has already sensed the wind's strength to give you that extra might to cut right through it.
+     the bike has already sensed the wind&apos;s strength to give you that extra might to cut right through it.
     </h3> 
     </div>
 
@@ -65,7 +65,7 @@ const HeadwindSection = () => {
 
     <div data-aos="fade-up" data-aos-duration="800" data-aos-offset="200" className='w-full xl:w-6/12 py-12 xl:py-24'>
     <h3 className='circularSubText'>AdaptivePower is inside every Cowboy.
-    The bike's motor adjusts in real time for a new prowess on the streets.
+    The bike&apos;s motor adjusts in real time for a new prowess on the streets.
     </h3> 
     <div  className='flex text-white opacity-75 items-center pt-6 gap-2 font-sand text-[19px] '>
      <Link className='hover:underline' href='/e-bike/classic  '>Classic</Link> 

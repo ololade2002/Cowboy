@@ -11,7 +11,7 @@ const BikeSection = () => {
      <h1 className='connectSubText pb-6 '>
      Meet the Cruiser for an elevated take on the classic Cowboy.
       A higher vantage gives you a comfortable advantage with an 
-      electric bike that's built around you.
+      electric bike that&apos;s built around you.
     </h1>   
     <Link href='/test-ride' className='bg-[#f2ebe3] web-bike hover:bg-white font-sand text-[18px] hover:opacity-90 font-[500] px-8 py-3 text-[#1d1d1d] rounded-full'>Book a free ride</Link>
     </div>

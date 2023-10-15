@@ -17,7 +17,7 @@ const StyleSection = () => {
     <div className='w-full px-4 xl:px-0 xl:w-[77%] text-left xl:text-center mx-auto  '>
     <h1 className='connectSubText pb-16 xl:pb-20'>
     With a raised cockpit and curved handlebars, the Cruiser ST gives you an
-     upright riding position. Step in from either side for a ride that's always easy to access.
+     upright riding position. Step in from either side for a ride that&apos;s always easy to access.
     </h1>   
     </div>
 

@@ -85,7 +85,7 @@ const FaqSection = () => {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="xl:px-4 pt-4 pb-2 text-sm text-gray-500">
-              <p className='font-sand text-[19px] text-[#1d1d1d] leading-7'>No, it's usually not possible to add our theft insurance to the offer. Most of our leasing partners have their own insurance against theft, accidents, and damages, included in the leasing package. It is of course 
+              <p className='font-sand text-[19px] text-[#1d1d1d] leading-7'>No, it&apos;s usually not possible to add our theft insurance to the offer. Most of our leasing partners have their own insurance against theft, accidents, and damages, included in the leasing package. It is of course 
               possible to purchase our insurance privately as an addition to the insurance included in the leasing package.</p>  
               <p  className='font-sand text-[19px] text-[#1d1d1d] leading-7 py-5'>After the lease period, you can usually exchange or take over your bicycle at a predetermined residual value, free of charge.</p>   
               </Disclosure.Panel>
@@ -105,7 +105,7 @@ const FaqSection = () => {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="xl:px-4 pt-4 pb-2 text-sm text-gray-500">
-              <p className='font-sand text-[19px] text-[#1d1d1d] leading-7'>Yes, you can add both the bike and accessories to your order. Please note that some partners don't consider smartphone mounts* as well as matching phone cases as leasable.
+              <p className='font-sand text-[19px] text-[#1d1d1d] leading-7'>Yes, you can add both the bike and accessories to your order. Please note that some partners don&apos;t consider smartphone mounts* as well as matching phone cases as leasable.
               Please get in touch with your local partner to get more information on this topic.</p>  
               <p  className='font-sand text-[19px] text-[#1d1d1d] leading-7 py-5'>After the lease period, you can usually exchange or take over your bicycle at a predetermined residual value, free of charge.</p>   
               </Disclosure.Panel>

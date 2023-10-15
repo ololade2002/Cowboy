@@ -32,8 +32,8 @@ return (
 
 <div className='w-full xl:w-6/12'>
  <h3 className='circularSubText'>With AdaptivePower Technology, this bike thinks 
- for itself. Encounter any resistance on the road, and the Cowboy instantly adapts to what's around you. 
- Gain extra power when you need it most and you'll feel nothing but a smooth path ahead.
+ for itself. Encounter any resistance on the road, and the Cowboy instantly adapts to what&apos;s around you. 
+ Gain extra power when you need it most and you&apos;ll feel nothing but a smooth path ahead.
 </h3>   
 <p className='pt-4 xl:pt-6 flex gap-3 items-center text-[#9a9a9a] font-[500] font-sand text-[18px] lg:text-[20px]'><TbTriangleInverted className='w-5 h-5'/>  Explore the element</p>
 </div>

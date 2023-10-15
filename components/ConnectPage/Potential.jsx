@@ -69,7 +69,7 @@ const Potential = () => {
       <h2  className='connectHeadingText'>Cowboy AdaptivePower™</h2>
       <hr />
       <p className='connectpText'>With AdaptivePower Technology, this bike thinks for itself. Encounter
-       any resistance on the road, and it instantly adapts to what's around you. Gain extra power when you need it most and you'll feel
+       any resistance on the road, and it instantly adapts to what&apos;s around you. Gain extra power when you need it most and you&apos;ll feel
         nothing but a smooth path ahead.</p>
      </div>
      </div>

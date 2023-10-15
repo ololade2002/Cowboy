@@ -9,7 +9,7 @@ const ConnectSection = () => {
     <div className="w-full xl:w-6/12">
     <h3 className='connectSubText'>
         The defining features of a Cowboy deserve a closer look, 
-        and the ride feeling is unlike anything you've ever tried.
+        and the ride feeling is unlike anything you&apos;ve ever tried.
          Get ready to experience it yourself.</h3>    
     </div>  
 
@@ -33,7 +33,7 @@ const ConnectSection = () => {
 
     <div className='w-full xl:w-6/12 flex flex-col gap-4'>
     <h3 className='connectSubText'>
-    Don't miss out on trying the Cowboy experience, and soon enough it'll be yours.
+    Don&apos;t miss out on trying the Cowboy experience, and soon enough it&apos;ll be yours.
     </h3>
     <button className='bg-[#1d1d1d] text-white f-btn font-sand font-[400] text-[18px] rounded-full px-6 py-3 mt-3'>Book a free test ride</button>    
     </div>

@@ -18,7 +18,7 @@ const Insurance = () => {
     <div className="body">
     <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" className='w-full xl:w-6/12 flex flex-col gap-4 pt-8 xl:pt-16 '>
     <h1  className='connectMainText'>Rest easy</h1>
-    <h3 className='connectSubText'>With <span className='underline'>Theft Insurance</span> enabled, we'll alert you
+    <h3 className='connectSubText'>With <span className='underline'>Theft Insurance</span> enabled, we&apos;ll alert you
     immediately if someone tries to snatch your bike. Plus, our GPS tracking ensures you can always locate your ride no matter where you are.</h3>
     </div>
     
@@ -40,7 +40,7 @@ const Insurance = () => {
      <h2 className='connectHeadingText'>Find My Bike</h2>
       <hr/>
       <p className='connectpText'>Whether near or far,
-       you'll be able to locate your bike at all times with GPS tracking. Follow the signal
+       you&apos;ll be able to locate your bike at all times with GPS tracking. Follow the signal
         to pinpoint its exact location.</p>
      </div>
      </div>

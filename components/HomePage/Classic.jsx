@@ -22,7 +22,7 @@ const Classic = () => {
   <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" className='homeMainText'>Step over to the agile ride</h1>
  
   <div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-offset="100" className='mobile-bike scale-125'>
-  <Image className='' src={classicfull}/>
+  <Image className='' src={classicfull} alt='Classic'/>
   </div> 
  
   <div className='homeButton' data-aos="fade-up" data-aos-duration="1000" data-aos-offset="120">
