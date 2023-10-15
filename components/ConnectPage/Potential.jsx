@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 const Potential = () => {
   return (
-    <div>
+    <div id='filters'>
      <div className=''>
      <div className='body pt-14 xl:pt-24'>
      

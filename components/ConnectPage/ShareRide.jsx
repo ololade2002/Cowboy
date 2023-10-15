@@ -43,7 +43,7 @@ const ShareRide = () => {
 
     <section className="properties flex flex-col pt-12 xl:pt-24 pb-20 xl:pb-24 xl:flex-row-reverse items-start gap-8 xl:gap-6">
      <div className='w-full xl:w-7/12 '>
-     <div className='media-wrapper mobile-item  rounded-md flex justify-center items-center w-[100%] h-[120vh] '>
+     <div className='media-wrapper web-bike  rounded-md flex justify-center items-center w-[100%] h-[120vh] '>
      <Image  className='w-full xl:w-[95%]' src={updates} alt='connect-app-updates'/>  
      </div>
      </div>

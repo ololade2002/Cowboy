@@ -2,7 +2,8 @@
 
 import React from 'react'
 import updates from '@/public/connect--apple-watch-app.webp'
-import control from '@/public/connect--trips-sync_427x@2x.webp'
+import control from '@/public/connect--statistics.webp'
+import control1 from '@/public/connect--trips-sync_427x@2x.webp'
 import Image from 'next/image'
 import { Parallax } from 'react-parallax'
 
@@ -68,7 +69,7 @@ const Fitness = () => {
 
      <div className='w-full xl:w-5/12 mb-[0px]'>
      <div className="media-wrapper rounded-md w-[100%] relative overflow-hidden h-auto xl:h-[80vh]  flex items-end justify-center  ">
-     <Image src={control} alt='connect-app-control'/>
+     <Image src={control1} alt='connect-app-control'/>
      </div>
      <div  className='pt-4 xl:pt-8 flex flex-col gap-3 xl:gap-5'>
      <h2 className='connectHeadingText'>Trips Sync</h2>

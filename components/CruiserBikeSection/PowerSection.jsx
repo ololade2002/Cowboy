@@ -3,6 +3,8 @@
 
 import {  XMarkIcon } from '@heroicons/react/20/solid'
 import React, { useState } from 'react'
+import Image from 'next/image'
+import detail from '../../public/circular--bcorp-large.webp'
 
 
 const PowerSection = () => {
@@ -28,7 +30,7 @@ const PowerSection = () => {
     </h1>   
     </div>
 
-    <section className="video-section  flex flex-col  gap-3 md:gap-5  ">
+    <section className="video-section web-bike  flex flex-col  gap-3 md:gap-5  ">
       
     <div className={` ${fullScreen ? 'full-screen' :'px-4'}`}>
 
@@ -87,6 +89,10 @@ const PowerSection = () => {
     </li>   
     </ul>
     </section>
+
+    <div className='mobile-bike'>
+   <Image className='h-[100vh] object-cover'  src={detail} alt='detail'/>
+   </div>
 
     <section>
     

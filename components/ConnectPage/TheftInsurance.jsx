@@ -24,7 +24,7 @@ const Insurance = () => {
     
     <section className="properties flex flex-col pt-12 pb-16 xl:py-24 xl:flex-row-reverse items-start gap-8 xl:gap-6">
      <div className='w-full xl:w-7/12 '>
-     <div className='media-wrapper  rounded-md flex justify-center items-center w-[100%] xl:h-[120vh] '>
+     <div className='media-wrapper web-bike rounded-md flex justify-center items-center w-[100%] xl:h-[120vh] '>
      <video autoPlay muted loop playsInline  disablePictureInPicture  controls={false}  className='object-cover rounded-md h-[100vh] '>
      <source src="https://cowboy.com/cdn/shop/t/28/assets/connect--find-my-bike.webm?v=20162767268800190671689605069" type="video/mp4"/>    
      </video> 
@@ -33,7 +33,7 @@ const Insurance = () => {
      </div>
 
      <div className='w-full xl:w-5/12 '>
-     <div className="media-wrapper rounded-md w-[100%]  h-[80vh]  flex items-end justify-center mobile-item  ">
+     <div className="media-wrapper rounded-md w-[100%]  h-[80vh]  flex items-end justify-center   ">
      <Image  className='w-[100%] h-[100%] object-cover aspect-square  ' src={antiTheft} alt='connect-app-control'/>
      </div>
      <div  className='pt-4 xl:pt-8 flex flex-col gap-3 xl:gap-5'>

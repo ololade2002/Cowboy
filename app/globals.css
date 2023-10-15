@@ -311,6 +311,16 @@ font-size: 45px;
   transform: translate(-50%,-50%);
   width: 100%;
 }
+@media screen and (max-width:1023px) {
+  .connectText {
+    position: absolute;  
+  top: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  }
+}
 .rideText {
   left: 4rem;
   bottom: 12%;
@@ -514,6 +524,12 @@ animation: inView 800ms linear ;
 .mobile-bike {
   display: none;
 }
+.mobile-view {
+  display: none;
+}
+.portrait-bike {
+  display: none;
+}
 .mobile-bike1 {
   display: none;
 }
@@ -558,6 +574,15 @@ animation: inView 800ms linear ;
       display: none;
     }
     .mobile-bike1 {
+      display: block;
+    }
+    .web-view {
+      display: none;
+     }
+  }
+
+  @media screen and (max-width:414px) {
+    .portrait-bike {
       display: block;
     }
   }

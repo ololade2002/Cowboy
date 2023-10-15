@@ -2,6 +2,8 @@
 
 import {  XMarkIcon } from '@heroicons/react/20/solid'
 import React, { useState } from 'react'
+import Image from 'next/image'
+import detail from '@/public/adaptive-power-gravity-2_587x@2x.webp'
 
 const PowerSection = () => {
 const [fullScreen , setFullScreen] = useState(false)
@@ -26,15 +28,16 @@ const closeFullScreen = () => {
     </h1>   
     </div>
 
-    <section className="video-section  flex flex-col gap-3 md:gap-5  ">
+    <section className="video-section web-bike  flex flex-col gap-3 md:gap-5  ">
       
     <div className={` ${fullScreen ? 'full-screen' :'px-4'}`}>
 
     {!fullScreen ? (
-    <div className='relative' onClick={openFullScreen} id='item-classic' > 
+    <div className='relative ' onClick={openFullScreen} id='item-classic' > 
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='w-[100%] h-[45vh] sm:h-[70vh] xl:h-[95vh] object-cover '>
     <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--connected-ride.webm?v=8147240818941453072169234818' type='video/webm'/>    
-    </video>    
+    </video> 
+
     <article className='absolute bottom-12 l left-12 flex web-bike flex-col gap-1 w-3/12 '>
     <h2 className='text-[22px] font-sand font-[500] text-[#1d1d1d]'>Connected Ride</h2>
     <p className='font-sand font-[500] text-[#747474]'>Get a good grip and a 
@@ -71,6 +74,7 @@ const closeFullScreen = () => {
     <video  autoPlay muted loop playsInline disablePictureInPicture  controls={false} className='object-cover h-[45vh] xl:h-auto'>
     <source src='https://cowboy.com/cdn/shop/t/28/assets/classic--assistance.webm?v=67356282726875004841689508614' type='video/webm'/>    
     </video>    
+
     </div>
     <h2 className='font-rale text-[24px] font-[500] pt-4 text-left pl-6 web-bike'>Cowboy AdaptivePower™</h2>
     <h2 className='font-rale text-[16px] font-[500] pt-4 text-left  mobile-bike'> AdaptivePower™</h2>
@@ -88,6 +92,10 @@ const closeFullScreen = () => {
 
 
     </section>
+
+   <div className='mobile-bike'>
+   <Image className='h-[100vh] object-cover'  src={detail} alt='detail'/>
+   </div>
 
     <section>
     
