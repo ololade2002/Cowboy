@@ -8,6 +8,34 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mont: ['var(--font-mont)'],
+        roboto: ['var(--font-roboto)'],
+        sand: ['var(--font-sand)'],
+        rale : ['var(--font-raleway)'],
+      },
+      screens : {
+        'xs': '400px',
+        // => @media (min-width: 500px) { ... }
+  
+        'sm': '600px',
+          // => @media (min-width: 600px) { ... }
+    
+        'md': '768px',
+          // => @media (min-width: 768px) { ... }
+    
+        'lg': '992px',
+          // => @media (min-width: 992px) { ... }  
+    
+        'xl': '1024px',
+          // => @media (min-width: 1024px) { ... }
+    
+        '2xl': '1280px',
+          // => @media (min-width: 1280px) { ... }
+    
+        '3xl': '1536px',
+          // => @media (min-width: 1536px) { ... }
+      } , 
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

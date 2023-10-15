@@ -2,26 +2,562 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+ 
+/* General Styles*/
+.body {
+  @apply max-w-7xl px-3 sm:px-4 mx-auto
+}
+.eyebrow {
+ @apply font-sand text-[13px] md:text-[15px] font-medium text-[#1d1d1d] opacity-80 
+}
+.h3 {
+  @apply text-[16px] md:text-[20px] font-sand font-[500]
+}
+.flexContainer {
+  @apply flex flex-col-reverse xl:flex-row
+}
+.flexContainer-r {
+  @apply flex flex-col xl:flex-row-reverse
+}
+.homeBtn {
+  @apply bg-[#1d1d1d] text-white px-9 text-[16px] font-sand font-medium py-2.5 rounded-full
+}
+.flex-center {
+  @apply flex flex-row items-center
+}
+.mobilenav-text {
+  @apply xl:uppercase text-[20px] xl:text-[14px] font-mont font-[300] xl:font-[500] text-white   
+}
+.mobilenav-textb {
+  @apply xl:uppercase text-[20px] xl:text-[14px] font-mont font-[500] xl:font-[600] text-black   
+}
+.videoText {
+  @apply absolute top-0 left-0 h-[100%] w-[100%]  flex items-center justify-center
+}
+
+/*Background Colors */
+
+#intro {
+  background: linear-gradient(30deg,#fffaf4 14.44%,#eee5d3 81.18%);
+}
+#page-cruiserst {
+  background: linear-gradient(247.2deg,#e3e5fc 8.64%,#f7f8fc 52.48%,#efeeeb 86.51%);
+}
+#page-cruiser {
+background: linear-gradient(30deg,#faf2e8 14.44%,#efe6d8 81.18%);
+}
+#cruiser {
+ background: linear-gradient(224deg,#eee5d3 20%,#fffaf4 81.18%);
+}
+#cruiser-st {
+  background: linear-gradient(247.2deg,#e3e5fc 8.64%,#f7f8fc 52.48%,#efeeeb 86.51%);
+}
+#classic {
+  background: linear-gradient(259.28deg,#fcfaf4 15.32%,#d6dbd2 100.3%);
+}
+#item-classic {
+  background: linear-gradient(225deg,#e7eae7 30.32%,#f6f0e9 100.3%);
+}
+#item-cruiser {
+  background: linear-gradient(224deg,#eee5d3 20%,#fffaf4 81.18%);
+}
+#item-cruiserst {
+  background: linear-gradient(224deg,#e3e5fc 20%,#f8f9fc 81.18%);
+}
+#classic-ride {
+  background: linear-gradient(3deg,#e7eae7a8 14.56%,#fdf8f2 61.18%);
+}
+#filters {
+  box-shadow: 0 0.2px 3.5px rgba(0,0,0,.05), 
+  0 0.4px 6.9px rgba(0,0,0,.036), 
+  0 0.8px 10.5px rgba(0,0,0,.03),
+  0 1.3px 14.6px rgba(0,0,0,.025),
+  0 2.5px 20.7px rgba(0,0,0,.02),
+  0 6px 55px rgba(0,0,0,.014);
+}
+
+/* Model Section */
+.bike-title {
+ @apply text-left font-rale font-[500] text-[25px] text-[#1d1d1d] py-4 
+}
+.bike-desc {
+  @apply text-left font-sand font-[500] text-[16px] text-[#757575] pb-6 pr-6
+}
+.bike-text {
+  @apply text-[16px] font-sand text-[#1d1d1d] font-[500]
+}
+.video-container {
+  @apply relative top-[89vh] mx-auto
+}
+.accessories {
+  @apply h-[70vh] w-[100%] flex items-center justify-center relative overflow-hidden
+}
+.paceText {
+  @apply max-w-7xl md:px-4 mx-auto font-rale text-[40px] sm:text-[55px] xl:text-[100px] font-[500] text-white flex flex-col leading-[4rem] xl:leading-[6.2rem]
+}
+
+/* Home Section */
+.homeSection {
+  @apply w-full xl:w-5/12 px-2 flex flex-col text-center xl:text-left justify-between
+}
+.homeMainText {
+  @apply  text-[#1d1d1d]  text-[40px] sm:text-[50px] lg:text-[64px] leading-[50px] xl:leading-[4rem] font-[500] font-rale pb-6 md:pb-14 xl:pb-0 
+}
+.homeButton {
+  @apply flex pt-12 pb-16 xl:pt-0 xl:py-0 items-center  justify-center xl:justify-start flex-col xl:flex-row gap-8
+}
+.homeBottomText {
+  @apply flex flex-row flex-wrap xl:gap-6 justify-between  xl:pb-14 
+}
+
+/*Connect Section */
+
+.connectMainText {
+  @apply text-[35px] sm:text-[55px] lg:text-[80px] text-[#1d1d1d] font-[500] font-rale
+}
+.connectSubText {
+  @apply font-sand text-[#1d1d1d] font-[500] text-[22px] md:text-[25px]  xl:text-[27px]
+}
+.connectHeadingText {
+ @apply font-sand text-[25px] md:text-[29px] font-[500] text-[#1d1d1d]
+}
+.connectpText {
+@apply text-[18px] font-sand text-[#747474] font-[500]
+}
+
+/*Circular Section*/
+.circularSubText {
+  @apply font-sand text-[#fff] font-[500] text-[22px] md:text-[25px]  xl:text-[27px]
+}
+
+/* Classic, Cruiser, Cruiser ST Section */
+.heroMainText {
+  @apply tracking-tight font-rale main-text text-[40px] sm:text-[55px] font-[500] lg:text-[100px] text-black 
+}
+
+
+/* Footer Section */
+
+.footerMainText {
+  @apply text-[#999999] font-rale text-[19px] font-[500]
+}
+.footerSubText {
+  @apply text-white font-sand text-[18px] py-3 flex flex-col gap-1
+}
+.footerSubText>p {
+  @apply  hover:underline
+}
+.footerSubText>a {
+  @apply  hover:underline
+}
+.accessories {
+  background-color: #e1ded3;
+}
+.vText {
+  display: block;
+}
+.vText:hover {
+  display: none;
+}
+
+/* Navbar Section*/
+.menu {
+display: none;
+}
+.bikes {
+display: none;
+}
+.modal-text {
+  position: absolute;
+  top: 0;
+}
+.cards-s {
+  box-shadow: 0 8px 26px 0 rgba(32,33,36,.6);
+}
+
+@media screen and (max-width:1023px) {
+.bikes {
+display: flex;
+}
+.ebikes-popup {
+  display: none;
+}    
+.icon {
+display: none;
+}
+.menu {
+background-color: transparent;
+border: none;
+outline: none;
+display: flex;  
+}
+.webNav {
+display: none;
+  }
+.menu>svg {
+font-size: 1.9rem;
+position: relative;
+z-index: 4;
+}
+.mobileNav {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 1.2rem;
+padding-right: 1.2rem;
+position: absolute;
+background-color: #000;
+z-index: 4;
+width: 100%;
+height: 100vh;
+font-size: 22px;
+gap: 2rem;
+top: 0rem;
+left: 0;
+}
+.connect-mobileNav {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 1.2rem;
+padding-right: 1.2rem;
+position: absolute;
+background-color: #fff;
+z-index: 4;
+width: 100%;
+height: 100vh;
+font-size: 22px;
+gap: 2rem;
+top: 0rem;
+left: 0;
+}
+.m-view {
+display: none;
+ } 
+}
+
+/*Hero Section */
+
+@media screen and (max-width:320px) {
+.main-text {
+font-size: 45px;
+}
+}
+
+.filmBtn {
+  position: absolute;
+  top: 92vh;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: fit-content;
+}
+.mapText {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+@media screen and (max-width:760px) {
+ .mapText {
+ width: 95%;
+ top: 1.5rem;
+ right: 0%;
+ margin: auto;
+ left: 0px;
+  }
+}
+.heroText {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+@media screen and (max-width:500px) {
+.heroText {
+  top: 54%;
+}
+}
+
+/* Lease Section */
+
+.leaseText {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.powerText {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.connectText {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.rideText {
+  left: 4rem;
+  bottom: 12%;
+  width: 35%;
+}
+
+
+@keyframes customAnimation {
+  0% {
+    transform: translateY(3px) ;
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(3px);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.animate-customAnimation {
+  animation: customAnimation 1.5s infinite;
+  animation-timing-function: ease;
 }
+
+@keyframes inView {
+ from {
+ transform: scale(1.05); 
+ 
+ } 
+ to {
+  transform: scale(1.0);
+  transition: 1.4s cubic-bezier(.42,0,.002,1);
+ }
+}
+
+.animate-inView {
+animation: inView 800ms linear ;
+
+}
+.line:before {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -0.7rem;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: rgba(29,29,29,.1);
+}
+
+.screens {
+  grid-template-columns: repeat(3,1fr) 1.75fr repeat(3,1fr);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+} 
+
+/* CONNECT PAGE */
+
+#intro .text {
+  text-align: center
+}
+#intro .media {
+  position: relative;
+  z-index: -1;
+  pointer-events: none
+}
+
+#intro .media {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+ }
+
+#intro .media video {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+ }
+
+#intro .media:before {
+ display: block;
+ content: "";
+ position: absolute;
+ z-index: 0;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: linear-gradient(0deg,#dff0fd -43.94%,#faf3ea 45.65%);
+}
+
+.media-wrapper {
+  background: linear-gradient(45deg,#dff0fd -60%,#faf3ea 45.65%);
+}
+
+.video {
+  width: 100%;
+}
+
+.full-screen {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 999;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 999;
+}
+.c-btn {
+  z-index: 9999;
+ 
+}
+.t-box {
+  border: 1px solid hsla(0,0%,100%,.2);
+  width: fit-content;
+}
+.shadow {
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 103.637695312%!important;
+  transform: translate(-47.7%,-64.8%);
+}
+.f-btn {
+  width: fit-content;
+}
+
+/* Service Section */
+.serviceCard {
+  position: relative;
+  overflow: hidden;
+}
+.serviceCard::before {
+  content: "";
+  background:rgba(0,0,0,0.3);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  transition: 0.4s ease-in-out;
+  z-index: 10;
+}
+.serviceCard:hover::before {
+  height: 100%;
+  content: '';
+}
+.serviceCard-text {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  z-index: 12;
+  color: #000;
+}
+.serviceCard:hover .serviceCard-text {
+  bottom: 12%;
+  opacity: 1;
+}
+@media screen and (max-width:768px) {
+.react-parallax-bgimage {
+  object-fit: cover;
+}
+}
+
+
+/* Accessories Section */
+.comp-section {
+  display: flex;
+}
+.react-multi-carousel-track {
+  gap: 16px;
+}
+@media screen and (max-width:1024px) {
+ .comp-section {
+  display: none;
+ }
+ .react-multi-carousel-track {
+  gap: 12px;
+}
+  }
+
+/* Circular Section */
+.mobile-bike {
+  display: none;
+}
+.mobile-bike1 {
+  display: none;
+}
+.mobile-item {
+  display: block;
+}
+.pace-subText {
+  position: absolute;
+  bottom: 5rem;
+  right: 0.5rem; 
+}
+.speed {
+  position: absolute;
+  bottom: 7rem;
+  right: 7rem;
+}
+
+
+@media screen and (max-width:1023px) {
+ .speed {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+ } 
+.web-bike {
+  display: none;
+}
+.mobile-bike {
+  display: block;
+}
+.mobile-item {
+  display: none;
+}
+.pace-subText {
+  bottom: 1rem;
+  left: 1rem;
+}
+  }
+
+  @media screen and (max-width:600px) {
+    .web-bike1 {
+      display: none;
+    }
+    .mobile-bike1 {
+      display: block;
+    }
+  }
